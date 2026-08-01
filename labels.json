@@ -1,0 +1,25 @@
+{
+  "classes": [
+    "bird",
+    "cat",
+    "dog"
+  ],
+  "class_to_idx": {
+    "bird": 0,
+    "cat": 1,
+    "dog": 2
+  },
+  "img_size": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "input_name": "input",
+  "output_name": "output"
+}

@@ -1,0 +1,29 @@
+{
+  "project": "My First AI Image Classifier",
+  "model": "MobileNetV3-Small",
+  "framework": "PyTorch",
+  "deployment": "ONNX Runtime",
+  "opset": 18,
+  "onnx_model": "my_first_ai_image_classifier.onnx",
+  "labels": "labels.json",
+  "classes": [
+    "bird",
+    "cat",
+    "dog"
+  ],
+  "num_classes": 3,
+  "image_size": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "validation_accuracy": 0.947920569501686,
+  "weighted_f1": 0.9479024790059798,
+  "created": "2026-08-01 17:53:11"
+}
